@@ -1,4 +1,4 @@
-class Ec2zcssh < Formula
+class Ec2Zcssh < Formula
     include Language::Python::Virtualenv
     desc "Fast ClusterSSH for iTerm2 (OSX) - AWS Enhanced"
     homepage "https://github.com/zoidbb/ec2-zcssh"
