@@ -7,3 +7,5 @@ class Zcssh < Formula
 
     def install
         bin.install "zcssh"
+    end
+end
