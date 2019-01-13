@@ -47,7 +47,8 @@ class Ec2Zcssh < Formula
     end    
 
     def install
-        virtualenv_install_with_resources :using => “python3”
-        bin.install "ec2-ec2-zcssh"
+        venv = virtualenv_create(libexec)
+        virtualenv_install_with_resources
+        bin.install "ec2-zcssh"
     end
 end
