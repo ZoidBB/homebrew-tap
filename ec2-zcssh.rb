@@ -3,7 +3,7 @@ class Ec2Zcssh < Formula
     desc "Fast ClusterSSH for iTerm2 (OSX) - AWS Enhanced"
     homepage "https://github.com/zoidbb/ec2-zcssh"
     url "https://github.com/zoidbb/ec2-zcssh/archive/v0.2.3.tar.gz"
-    sha256 "c9fe5fe028acdbc972e1e1db3cb79b6faa58e0ae4a2a74fec938e67ec015568"
+    sha256 "c9fe5fe028acdbc972e1e1db3cb79b6faa58e0ae4a2a74fec938e67ec0155682"
     head "https://github.com/zoidbb/ec2-zcssh.git"
 
     depends_on "python"
