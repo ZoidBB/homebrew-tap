@@ -6,7 +6,7 @@ class Ec2Zcssh < Formula
     sha256 "c9fe5fe028acdbc972e1e1db3cb79b6faa58e0ae4a2a74fec938e67ec0155682"
     head "https://github.com/zoidbb/ec2-zcssh.git"
 
-    depends_on "python"
+    depends_on "python3"
     depends_on "zcssh"
 
     def install
