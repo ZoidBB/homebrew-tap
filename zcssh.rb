@@ -6,6 +6,7 @@ class Zcssh < Formula
     head "https://github.com/zoidbb/zcssh.git"
 
     def install
+        bin.install "zcssh-jxa"
         bin.install "zcssh"
     end
 end
